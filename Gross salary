@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+{
+int gross_salary,basic,b,c;
+printf("enter the basic salary:");
+scanf("%d",&basic);
+b=(10*basic)/100;
+c=(12*basic)/100;
+gross_salary = basic + b + c;
+printf("\n gross_salary : %d",gross_salary);
+return 0;
+}
