@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main ()
+{
+printf("enter mark :");
+scanf("%d",&mark);
+puts(mark>=40?"passed" : "failed");
+return 0;
+}
